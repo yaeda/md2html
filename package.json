@@ -1,0 +1,17 @@
+{
+  "name": "md2html",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Takeshi Yaeda <t.yaeda@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "rehype-document": "^5.1.0",
+    "rehype-preset-minify": "^5.1.0",
+    "rehype-stringify": "^8.0.0",
+    "remark-gfm": "^1.0.0",
+    "remark-parse": "^9.0.0",
+    "remark-rehype": "^8.1.0",
+    "unified": "^9.2.1"
+  }
+}
