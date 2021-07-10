@@ -17,7 +17,7 @@ unified()
   .use(parse)
   .use(gfm)
   .use(mutate)
-  .use(doc, { style: [fs.readFileSync("styles/markdown.css", "utf8")] })
+  .use(doc, { style: [fs.readFileSync("style.css", "utf8")] })
   .use(stringify)
   .use(minify)
   .process(fs.readFileSync(input), (error, file) => {
