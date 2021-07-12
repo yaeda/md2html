@@ -1,7 +1,8 @@
 {
-  "name": "md2html",
-  "version": "0.1.0",
+  "name": "@yaeda/md2html",
+  "version": "0.0.0",
   "main": "index.js",
+  "bin": "./cli.js",
   "author": "Takeshi Yaeda <t.yaeda@gmail.com>",
   "license": "MIT",
   "type": "module",
@@ -15,9 +16,14 @@
     "unified": "^9.2.1"
   },
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "release": "np"
   },
   "devDependencies": {
-    "ava": "^3.15.0"
+    "ava": "^3.15.0",
+    "np": "^7.5.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
